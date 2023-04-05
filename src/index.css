@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.board{
+  padding: 20px;
+  display: grid;
+  column-gap: 0px;
+  row-gap: 0px;
+  justify-items: center;
+  align-items:center;
+  border-radius: 10px;
+  background-color: rgb(77, 103, 255);
+}
+
+.cell{
+  width: 75%;
+  height: 75%;
+  margin: 0;
+  border-radius: 60px;
+  background-color: rgb(255, 255, 255);
+  display: grid;
+}
+
+.pl1{
+  background-color : red;
+  box-shadow: inset 6px 6px 3px rgb(150, 0, 0);
+}
+
+.pl1-color{
+  color: red;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  display: inline;
+
+}
+
+.pl2-color{
+  color: yellow;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  display: inline;
+}
+
+.pl2{
+  background-color : yellow;
+  box-shadow: inset 6px 6px 3px rgb(149, 140, 58);
+}
+
+.winMark{
+  background-color: black;
+  width: 50%;
+  height: 50%;
+  border-radius: 60px;
+  margin: auto;
+}
+
+.textBelowBoard{
+  display: inline;
+  color : black;
+  font-size : 3em;
+  display: grid;
+  justify-content: center;
+}
+
+.playAgainBtn{
+  color: black;
+    font-size: 1em;
+    display: grid;
+    justify-self: center;
+    border-color: black;
+    border-width: 2px;
+    border-style: dotted;
+    width: auto;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+.playAgainBtn.hide{
+  display:none;
+}
+
+.playAgainBtn:hover{
+  background-color: #ddd;
+}
