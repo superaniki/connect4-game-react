@@ -8,4 +8,4 @@ Todo:
 * Better aspect ratio and handling for big board sizes
 * show multiple win-lines. Only the first detected show right now.
 
-![Uploading image.png…]()
+![Alt text](connect4-screenshot.png?raw=true "Title")
